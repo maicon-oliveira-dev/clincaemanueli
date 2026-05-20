@@ -1,0 +1,19 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="recBg" x1="146" y1="80" x2="1037" y2="847" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FCF8F2"/>
+      <stop offset="1" stop-color="#E8D6C3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="36" fill="url(#recBg)"/>
+  <rect x="125" y="130" width="950" height="640" rx="28" fill="#FDFBF8"/>
+  <rect x="195" y="205" width="560" height="56" rx="18" fill="#082A4A" fill-opacity="0.08"/>
+  <rect x="195" y="289" width="340" height="32" rx="16" fill="#F28C38" fill-opacity="0.18"/>
+  <rect x="195" y="388" width="810" height="240" rx="32" fill="#082A4A" fill-opacity="0.06"/>
+  <rect x="815" y="197" width="190" height="180" rx="24" fill="#082A4A"/>
+  <circle cx="910" cy="287" r="58" fill="#F28C38" fill-opacity="0.24"/>
+  <path d="M290 627C355 545 427 504 506 504C576 504 650 544 726 627" stroke="#082A4A" stroke-opacity="0.16" stroke-width="28" stroke-linecap="round"/>
+  <text x="196" y="725" fill="#082A4A" font-family="Arial, sans-serif" font-size="48" font-weight="700">
+    Placeholder para recepção
+  </text>
+</svg>

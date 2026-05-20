@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dra. Emanueli Lima | Estética Avançada e Tratamentos Personalizados</title>
+    <meta
+      name="description"
+      content="Conheça os tratamentos faciais e corporais da Dra. Emanueli Lima. Estética avançada, cuidado personalizado e agendamento pelo WhatsApp."
+    />
+    <meta
+      property="og:title"
+      content="Dra. Emanueli Lima | Estética Avançada e Tratamentos Personalizados"
+    />
+    <meta
+      property="og:description"
+      content="Conheça os tratamentos faciais e corporais da Dra. Emanueli Lima. Estética avançada, cuidado personalizado e agendamento pelo WhatsApp."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/img/og-image.svg" />
+    <meta name="theme-color" content="#082A4A" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Ir para o início">
+          <span class="brand__mark" aria-hidden="true">EL</span>
+          <span class="brand__text">
+            <strong>Emanueli Lima</strong>
+            <small>Centro de Estética</small>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          aria-label="Abrir menu"
+          data-nav-toggle
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-navigation" aria-label="Principal" data-nav>
+          <ul class="site-nav__list">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#tratamentos">Tratamentos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#como-funciona">Como funciona</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+          <a
+            class="btn btn--primary btn--nav"
+            href="#cta-final"
+            data-whatsapp-link
+            aria-label="Agendar avaliação pelo WhatsApp"
+          >
+            Agendar avaliação
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="inicio">
+        <div class="container hero__grid">
+          <div class="hero__content reveal">
+            <p class="eyebrow">Estética avançada com atendimento cuidadoso</p>
+            <h1>
+              Estética avançada com cuidado personalizado para valorizar o que
+              você tem de melhor
+            </h1>
+            <p class="hero__lead">
+              Protocolos faciais e corporais pensados de forma individual, com
+              avaliação profissional, tecnologia e atenção aos detalhes.
+            </p>
+            <div class="hero__actions">
+              <a
+                class="btn btn--primary"
+                href="#cta-final"
+                data-whatsapp-link
+                aria-label="Agendar avaliação pelo WhatsApp"
+              >
+                Agendar avaliação pelo WhatsApp
+              </a>
+              <a class="btn btn--secondary" href="#tratamentos">
+                Conhecer tratamentos
+              </a>
+            </div>
+            <ul class="hero__badges" aria-label="Tratamentos em destaque">
+              <li>Crio-E</li>
+              <li>Lavieen</li>
+              <li>Depilação a Laser</li>
+              <li>Limpeza de Pele</li>
+              <li>Diástase PHE</li>
+              <li>FlaciOff</li>
+            </ul>
+            <p class="hero__note">
+              Resultados dependem de avaliação, indicação e resposta individual
+              de cada paciente.
+            </p>
+          </div>
+
+          <div class="hero__visual reveal">
+            <article class="hero-card">
+              <div class="hero-card__image-frame">
+                <img
+                  src="assets/img/atendimento.png"
+                  alt="Placeholder elegante para foto da Dra. Emanueli Lima"
+                  width="900"
+                  height="1125"
+                />
+                <span class="hero-card__tag">Avaliação individual e protocolos personalizados</span>
+              </div>
+              <div class="hero-card__footer">
+                <div>
+                  <p class="hero-card__label">Emanueli Estética</p>
+                  <h2>Dra. Emanueli Lima</h2>
+                </div>
+                <p class="hero-card__text">
+                  Atendimento com abordagem técnica, acolhedora e pensada para
+                  cada necessidade.
+                </p>
+              </div>
+            </article>
+
+            <aside class="lead-card" aria-labelledby="lead-card-title">
+              <div class="lead-card__header">
+                <p class="eyebrow">Contato rápido</p>
+                <h3 id="lead-card-title">Solicite um primeiro atendimento</h3>
+                <p>
+                  Deixe seus dados para iniciar a conversa com a equipe pelo
+                  WhatsApp.
+                </p>
+              </div>
+              <form class="lead-form" data-lead-form novalidate>
+                <div class="field">
+                  <label for="lead-name">Seu nome</label>
+                  <input
+                    id="lead-name"
+                    name="name"
+                    type="text"
+                    placeholder="Como você gostaria de ser chamada?"
+                    autocomplete="name"
+                    required
+                  />
+                </div>
+                <div class="field">
+                  <label for="lead-phone">WhatsApp</label>
+                  <input
+                    id="lead-phone"
+                    name="phone"
+                    type="tel"
+                    placeholder="(00) 00000-0000"
+                    autocomplete="tel"
+                    inputmode="tel"
+                    required
+                  />
+                </div>
+                <div class="field">
+                  <label for="lead-interest">Interesse principal</label>
+                  <select id="lead-interest" name="interest">
+                    <option value="">Selecione um tratamento</option>
+                    <option value="Crio-E">Crio-E</option>
+                    <option value="Diástase PHE">Diástase PHE</option>
+                    <option value="FlaciOff">FlaciOff</option>
+                    <option value="Depilação a Laser">Depilação a Laser</option>
+                    <option value="Lavieen">Lavieen</option>
+                    <option value="Limpeza de Pele">Limpeza de Pele</option>
+                    <option value="Outro protocolo">Outro protocolo</option>
+                  </select>
+                </div>
+                <button class="btn btn--primary btn--full" type="submit">
+                  Quero atendimento pelo WhatsApp
+                </button>
+                <p class="form-feedback" data-form-feedback aria-live="polite"></p>
+              </form>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section authority" id="sobre">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Sobre o atendimento</p>
+            <h2>Cuidado técnico, estética e bem-estar em uma experiência completa</h2>
+            <p>
+              Dra. Emanueli Lima atua com foco em tratamentos personalizados,
+              escuta cuidadosa e orientação profissional para que cada conduta
+              seja pensada de forma individual.
+            </p>
+          </div>
+
+          <div class="card-grid card-grid--three">
+            <article class="info-card reveal">
+              <span class="info-card__accent"></span>
+              <h3>Avaliação individual</h3>
+              <p>
+                Cada atendimento começa com entendimento da sua necessidade,
+                histórico e objetivos antes de qualquer indicação.
+              </p>
+            </article>
+            <article class="info-card reveal">
+              <span class="info-card__accent"></span>
+              <h3>Protocolos personalizados</h3>
+              <p>
+                Os tratamentos são combinados conforme avaliação, indicação e
+                resposta individual, respeitando o seu momento.
+              </p>
+            </article>
+            <article class="info-card reveal">
+              <span class="info-card__accent"></span>
+              <h3>Atendimento acolhedor</h3>
+              <p>
+                Clareza, escuta e ambiente profissional fazem parte de uma
+                experiência que une técnica e bem-estar.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section treatments" id="tratamentos">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Tratamentos em destaque</p>
+            <h2>Protocolos faciais e corporais com indicação individual</h2>
+            <p>
+              Conheça algumas das opções disponíveis na clínica. A definição do
+              protocolo ideal depende de avaliação profissional.
+            </p>
+          </div>
+
+          <div class="card-grid card-grid--three">
+            <article class="service-card reveal">
+              <span class="service-card__icon service-card__icon--crio" aria-hidden="true"></span>
+              <h3>Crio-E</h3>
+              <p>
+                Tecnologia voltada para protocolos corporais, com indicação
+                alinhada ao objetivo e à avaliação de cada caso.
+              </p>
+              <a
+                class="btn btn--ghost btn--small"
+                href="#cta-final"
+                data-whatsapp-link
+                data-whatsapp-topic="Crio-E"
+                aria-label="Saber mais sobre Crio-E"
+              >
+                Quero saber mais
+              </a>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-card__icon service-card__icon--dias" aria-hidden="true"></span>
+              <h3>Diástase PHE</h3>
+              <p>
+                Protocolo pensado para acompanhamento individual, com cuidado na
+                indicação e orientação conforme avaliação.
+              </p>
+              <a
+                class="btn btn--ghost btn--small"
+                href="#cta-final"
+                data-whatsapp-link
+                data-whatsapp-topic="Diástase PHE"
+                aria-label="Saber mais sobre Diástase PHE"
+              >
+                Quero saber mais
+              </a>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-card__icon service-card__icon--flaci" aria-hidden="true"></span>
+              <h3>FlaciOff</h3>
+              <p>
+                Opção corporal avaliada caso a caso, com protocolo ajustado às
+                necessidades observadas durante o atendimento.
+              </p>
+              <a
+                class="btn btn--ghost btn--small"
+                href="#cta-final"
+                data-whatsapp-link
+                data-whatsapp-topic="FlaciOff"
+                aria-label="Saber mais sobre FlaciOff"
+              >
+                Quero saber mais
+              </a>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-card__icon service-card__icon--laser" aria-hidden="true"></span>
+              <h3>Depilação a Laser</h3>
+              <p>
+                Atendimento com tecnologia e orientação prévia para entender
+                indicação, cuidados e frequência do protocolo.
+              </p>
+              <a
+                class="btn btn--ghost btn--small"
+                href="#cta-final"
+                data-whatsapp-link
+                data-whatsapp-topic="Depilação a Laser"
+                aria-label="Saber mais sobre Depilação a Laser"
+              >
+                Quero saber mais
+              </a>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-card__icon service-card__icon--lavieen" aria-hidden="true"></span>
+              <h3>Lavieen</h3>
+              <p>
+                Procedimento facial integrado a um plano individual, com atenção
+                ao momento da pele e às necessidades apresentadas.
+              </p>
+              <a
+                class="btn btn--ghost btn--small"
+                href="#cta-final"
+                data-whatsapp-link
+                data-whatsapp-topic="Lavieen"
+                aria-label="Saber mais sobre Lavieen"
+              >
+                Quero saber mais
+              </a>
+            </article>
+
+            <article class="service-card reveal">
+              <span class="service-card__icon service-card__icon--pele" aria-hidden="true"></span>
+              <h3>Limpeza de Pele</h3>
+              <p>
+                Cuidado facial com olhar técnico para rotina, sensibilidade e
+                condutas adequadas ao tipo de pele.
+              </p>
+              <a
+                class="btn btn--ghost btn--small"
+                href="#cta-final"
+                data-whatsapp-link
+                data-whatsapp-topic="Limpeza de Pele"
+                aria-label="Saber mais sobre Limpeza de Pele"
+              >
+                Quero saber mais
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process" id="como-funciona">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Como funciona</p>
+            <h2>Um processo claro, acolhedor e pensado para orientar cada etapa</h2>
+          </div>
+
+          <div class="process-grid">
+            <article class="process-step reveal">
+              <span class="process-step__number">1</span>
+              <h3>Você chama pelo WhatsApp</h3>
+              <p>
+                O primeiro contato acontece de forma prática para que a equipe
+                receba sua solicitação.
+              </p>
+            </article>
+            <article class="process-step reveal">
+              <span class="process-step__number">2</span>
+              <h3>A equipe entende sua necessidade</h3>
+              <p>
+                Suas dúvidas e objetivos são ouvidos com atenção para direcionar
+                o próximo passo.
+              </p>
+            </article>
+            <article class="process-step reveal">
+              <span class="process-step__number">3</span>
+              <h3>É feita uma avaliação individual</h3>
+              <p>
+                A indicação considera suas características, prioridades e o que
+                faz sentido no momento.
+              </p>
+            </article>
+            <article class="process-step reveal">
+              <span class="process-step__number">4</span>
+              <h3>O protocolo indicado é explicado com clareza</h3>
+              <p>
+                Você recebe orientação profissional sobre possibilidades,
+                cuidados e planejamento do atendimento.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section diferencial">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Diferenciais</p>
+            <h2>Uma experiência pensada para você se sentir segura, acolhida e bem cuidada</h2>
+          </div>
+
+          <div class="card-grid card-grid--four">
+            <article class="feature-card reveal">
+              <h3>Ambiente organizado</h3>
+              <p>
+                Um espaço claro, limpo e preparado para oferecer conforto em
+                cada etapa do atendimento.
+              </p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Atendimento humanizado</h3>
+              <p>
+                Escuta atenta e orientação profissional para que você se sinta
+                acolhida desde o primeiro contato.
+              </p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Tecnologias e protocolos atuais</h3>
+              <p>
+                Tratamentos selecionados conforme proposta do atendimento e
+                necessidade individual observada.
+              </p>
+            </article>
+            <article class="feature-card reveal">
+              <h3>Clareza antes de iniciar qualquer procedimento</h3>
+              <p>
+                Informações objetivas sobre indicação, cuidados e etapas para
+                que a decisão seja consciente e tranquila.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Prova social</p>
+            <h2>Experiências que ajudam a transmitir confiança</h2>
+            <p>
+              Espaço reservado para avaliações reais de pacientes e clientes.
+            </p>
+          </div>
+
+          <!-- Substituir os depoimentos abaixo por avaliações reais autorizadas pela equipe. -->
+          <div class="card-grid card-grid--three">
+            <article class="testimonial-card reveal">
+              <div class="stars" aria-label="5 estrelas">★★★★★</div>
+              <h3>Depoimento de cliente</h3>
+              <p>
+                Texto da avaliação aqui. Use um relato real sobre atendimento,
+                ambiente, acolhimento e experiência.
+              </p>
+            </article>
+            <article class="testimonial-card reveal">
+              <div class="stars" aria-label="5 estrelas">★★★★★</div>
+              <h3>Depoimento de cliente</h3>
+              <p>
+                Texto da avaliação aqui. Substitua por um depoimento aprovado,
+                com linguagem natural e objetiva.
+              </p>
+            </article>
+            <article class="testimonial-card reveal">
+              <div class="stars" aria-label="5 estrelas">★★★★★</div>
+              <h3>Depoimento de cliente</h3>
+              <p>
+                Texto da avaliação aqui. O ideal é mostrar percepções sobre o
+                cuidado, a orientação e a experiência no espaço.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Espaço físico</p>
+            <h2>Uma clínica pensada para transmitir organização, leveza e confiança</h2>
+            <p>
+              Use esta galeria para apresentar o ambiente com imagens reais da
+              recepção, salas e detalhes de marca.
+            </p>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-card reveal">
+              <img
+                src="assets/img/atendimento.png"
+                alt="Placeholder para foto da recepção"
+                loading="lazy"
+                width="1200"
+                height="900"
+              />
+              <figcaption>Recepção</figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+              <img
+                src="assets/img/atendimento.png"
+                alt="Placeholder para foto da sala de atendimento"
+                loading="lazy"
+                width="1200"
+                height="900"
+              />
+              <figcaption>Sala de atendimento</figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+              <img
+                src="assets/img/atendimento.png"
+                alt="Placeholder para foto de procedimentos"
+                loading="lazy"
+                width="1200"
+                height="900"
+              />
+              <figcaption>Procedimentos</figcaption>
+            </figure>
+            <figure class="gallery-card reveal">
+              <img
+                src="assets/img/atendimento.png"
+                alt="Placeholder para foto de detalhes da marca"
+                loading="lazy"
+                width="1200"
+                height="900"
+              />
+              <figcaption>Detalhes da marca</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Perguntas frequentes</p>
+            <h2>Informações rápidas para quem está conhecendo o atendimento</h2>
+          </div>
+
+          <div class="faq-list">
+            <details class="faq-item reveal">
+              <summary>Como funciona a avaliação?</summary>
+              <p>
+                A avaliação é o momento de entender sua necessidade, histórico e
+                objetivo para orientar o protocolo mais adequado.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Os tratamentos são personalizados?</summary>
+              <p>
+                Sim. Os protocolos são pensados de forma individual, conforme a
+                indicação profissional e a resposta de cada pessoa.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Posso tirar dúvidas antes de agendar?</summary>
+              <p>
+                Sim. A equipe pode orientar o primeiro contato pelo WhatsApp e
+                ajudar no encaminhamento da avaliação.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Onde fica o atendimento?</summary>
+              <p>
+                O espaço de atendimento deve ser informado aqui com endereço
+                real, bairro, cidade e ponto de referência, se necessário.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Como faço para marcar horário?</summary>
+              <p>
+                Basta chamar pelo WhatsApp. A equipe organiza a conversa inicial
+                e orienta os próximos passos para o agendamento.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-final" id="cta-final">
+        <div class="container">
+          <div class="cta-panel reveal">
+            <div class="cta-panel__content">
+              <p class="eyebrow">Agendamento</p>
+              <h2>Quer entender qual tratamento faz sentido para você?</h2>
+              <p>
+                Fale com a equipe e receba orientação para agendar sua avaliação.
+              </p>
+            </div>
+            <div class="cta-panel__actions">
+              <a
+                class="btn btn--primary btn--large"
+                href="#inicio"
+                data-whatsapp-link
+                aria-label="Chamar no WhatsApp"
+              >
+                Chamar no WhatsApp
+              </a>
+              <p class="cta-panel__note">
+                Atendimento com cuidado técnico e personalizado. A indicação de
+                qualquer protocolo depende de avaliação individual.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h2>Emanueli Lima Centro de Estética</h2>
+          <p>
+            Atendimento com foco em estética facial e corporal, orientação
+            profissional e experiência acolhedora.
+          </p>
+        </div>
+        <div>
+          <h3>Contato</h3>
+          <ul class="footer-list">
+            <li>
+              <a
+                href="https://www.instagram.com/emaneliestetica/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram: @emaneliestetica
+              </a>
+            </li>
+            <li>
+              <a
+                href="#cta-final"
+                data-whatsapp-link
+                aria-label="Abrir conversa no WhatsApp"
+              >
+                WhatsApp
+              </a>
+            </li>
+            <li>Endereço: inserir endereço real da clínica</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>
+          As informações desta página não substituem uma avaliação profissional
+          individual.
+        </p>
+      </div>
+    </footer>
+
+    <a
+      class="floating-cta"
+      href="#cta-final"
+      data-floating-cta
+      data-whatsapp-link
+      aria-label="Chamar no WhatsApp"
+    >
+      Chamar no WhatsApp
+    </a>
+  </body>
+</html>

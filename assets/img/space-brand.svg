@@ -1,0 +1,22 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brandBg" x1="140" y1="88" x2="1036" y2="832" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBF7F2"/>
+      <stop offset="1" stop-color="#E9F0F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="36" fill="url(#brandBg)"/>
+  <rect x="127" y="124" width="946" height="652" rx="34" fill="#FFFFFF" fill-opacity="0.94"/>
+  <circle cx="410" cy="454" r="176" fill="#082A4A"/>
+  <circle cx="410" cy="454" r="106" fill="#F7F4EF"/>
+  <text x="347" y="470" fill="#082A4A" font-family="Georgia, serif" font-size="72" font-weight="700">
+    EL
+  </text>
+  <rect x="650" y="284" width="252" height="56" rx="18" fill="#082A4A" fill-opacity="0.1"/>
+  <rect x="650" y="370" width="320" height="32" rx="16" fill="#F28C38" fill-opacity="0.2"/>
+  <rect x="650" y="442" width="287" height="32" rx="16" fill="#082A4A" fill-opacity="0.06"/>
+  <rect x="650" y="514" width="234" height="32" rx="16" fill="#082A4A" fill-opacity="0.06"/>
+  <text x="198" y="724" fill="#082A4A" font-family="Arial, sans-serif" font-size="48" font-weight="700">
+    Placeholder para detalhes da marca
+  </text>
+</svg>

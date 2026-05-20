@@ -1,0 +1,32 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ogBg" x1="84" y1="32" x2="1042" y2="650" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#082A4A"/>
+      <stop offset="1" stop-color="#0E436F"/>
+    </linearGradient>
+    <linearGradient id="ogAccent" x1="756" y1="145" x2="1012" y2="398" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4A05A"/>
+      <stop offset="1" stop-color="#F28C38" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="32" fill="url(#ogBg)"/>
+  <circle cx="887" cy="198" r="146" fill="url(#ogAccent)"/>
+  <circle cx="148" cy="562" r="172" fill="#F28C38" fill-opacity="0.14"/>
+  <rect x="86" y="87" width="116" height="116" rx="58" fill="#F7F4EF"/>
+  <text x="116" y="160" fill="#082A4A" font-family="Georgia, serif" font-size="56" font-weight="700">
+    EL
+  </text>
+  <text x="86" y="286" fill="#FFFFFF" font-family="Georgia, serif" font-size="72" font-weight="700">
+    Emanueli Lima
+  </text>
+  <text x="86" y="365" fill="#F4D9C2" font-family="Arial, sans-serif" font-size="30" font-weight="700">
+    Estética avançada com cuidado personalizado
+  </text>
+  <text x="86" y="430" fill="#D9E5EF" font-family="Arial, sans-serif" font-size="28">
+    Protocolos faciais e corporais pensados de forma individual
+  </text>
+  <rect x="86" y="490" width="392" height="60" rx="30" fill="#F28C38"/>
+  <text x="128" y="528" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">
+    agendamento via WhatsApp
+  </text>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="procBg" x1="82" y1="65" x2="1114" y2="840" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EEF4F8"/>
+      <stop offset="1" stop-color="#F7EBDD"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="36" fill="url(#procBg)"/>
+  <rect x="115" y="116" width="970" height="668" rx="34" fill="#FCFBF8"/>
+  <circle cx="379" cy="423" r="162" fill="#082A4A" fill-opacity="0.08"/>
+  <circle cx="379" cy="423" r="102" fill="#F28C38" fill-opacity="0.2"/>
+  <rect x="605" y="244" width="318" height="48" rx="18" fill="#082A4A" fill-opacity="0.1"/>
+  <rect x="605" y="322" width="240" height="24" rx="12" fill="#F28C38" fill-opacity="0.2"/>
+  <rect x="605" y="391" width="365" height="208" rx="28" fill="#082A4A" fill-opacity="0.06"/>
+  <path d="M330 468L448 349" stroke="#082A4A" stroke-opacity="0.18" stroke-width="22" stroke-linecap="round"/>
+  <path d="M329 351L450 472" stroke="#082A4A" stroke-opacity="0.18" stroke-width="22" stroke-linecap="round"/>
+  <text x="202" y="708" fill="#082A4A" font-family="Arial, sans-serif" font-size="48" font-weight="700">
+    Placeholder para procedimentos
+  </text>
+</svg>
