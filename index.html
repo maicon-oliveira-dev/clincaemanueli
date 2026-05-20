@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
@@ -79,14 +79,21 @@
         <div class="container hero__grid">
           <div class="hero__content reveal">
             <p class="eyebrow">Estética avançada com atendimento cuidadoso</p>
-            <h1>
-              Estética avançada com cuidado personalizado para valorizar o que
-              você tem de melhor
-            </h1>
-            <p class="hero__lead">
-              Protocolos faciais e corporais pensados de forma individual, com
-              avaliação profissional, tecnologia e atenção aos detalhes.
-            </p>
+            <div class="hero__title-block">
+              <h1>
+                <span>Estética avançada</span>
+                <span>com cuidado</span>
+                <span>personalizado</span>
+                <span>para valorizar</span>
+                <span>o que você tem</span>
+                <span>de melhor</span>
+              </h1>
+              <p class="hero__lead">
+                Protocolos faciais e corporais pensados de forma individual, com
+                avaliação profissional, tecnologia e atenção aos detalhes.
+              </p>
+            </div>
+
             <div class="hero__actions">
               <a
                 class="btn btn--primary"
@@ -100,6 +107,22 @@
                 Conhecer tratamentos
               </a>
             </div>
+
+            <div class="hero-highlights" aria-label="Pilares do atendimento">
+              <article class="hero-highlight">
+                <strong>Avaliação individual</strong>
+                <span>Entendimento cuidadoso antes de qualquer indicação.</span>
+              </article>
+              <article class="hero-highlight">
+                <strong>Protocolos sob medida</strong>
+                <span>Condutas pensadas conforme necessidade e orientação profissional.</span>
+              </article>
+              <article class="hero-highlight">
+                <strong>Experiência acolhedora</strong>
+                <span>Clínica organizada, moderna e com atenção aos detalhes.</span>
+              </article>
+            </div>
+
             <ul class="hero__badges" aria-label="Tratamentos em destaque">
               <li>Crio-E</li>
               <li>Lavieen</li>
@@ -108,6 +131,7 @@
               <li>Diástase PHE</li>
               <li>FlaciOff</li>
             </ul>
+
             <p class="hero__note">
               Resultados dependem de avaliação, indicação e resposta individual
               de cada paciente.
@@ -119,11 +143,13 @@
               <div class="hero-card__image-frame">
                 <img
                   src="assets/img/atendimento.png"
-                  alt="Placeholder elegante para foto da Dra. Emanueli Lima"
-                  width="900"
-                  height="1125"
+                  alt="Dra. Emanueli Lima realizando atendimento estético em ambiente clínico"
+                  width="1098"
+                  height="1433"
                 />
-                <span class="hero-card__tag">Avaliação individual e protocolos personalizados</span>
+                <span class="hero-card__tag">
+                  Avaliação individual e protocolos personalizados
+                </span>
               </div>
               <div class="hero-card__footer">
                 <div>
@@ -136,60 +162,71 @@
                 </p>
               </div>
             </article>
-
-            <aside class="lead-card" aria-labelledby="lead-card-title">
-              <div class="lead-card__header">
-                <p class="eyebrow">Contato rápido</p>
-                <h3 id="lead-card-title">Solicite um primeiro atendimento</h3>
-                <p>
-                  Deixe seus dados para iniciar a conversa com a equipe pelo
-                  WhatsApp.
-                </p>
-              </div>
-              <form class="lead-form" data-lead-form novalidate>
-                <div class="field">
-                  <label for="lead-name">Seu nome</label>
-                  <input
-                    id="lead-name"
-                    name="name"
-                    type="text"
-                    placeholder="Como você gostaria de ser chamada?"
-                    autocomplete="name"
-                    required
-                  />
-                </div>
-                <div class="field">
-                  <label for="lead-phone">WhatsApp</label>
-                  <input
-                    id="lead-phone"
-                    name="phone"
-                    type="tel"
-                    placeholder="(00) 00000-0000"
-                    autocomplete="tel"
-                    inputmode="tel"
-                    required
-                  />
-                </div>
-                <div class="field">
-                  <label for="lead-interest">Interesse principal</label>
-                  <select id="lead-interest" name="interest">
-                    <option value="">Selecione um tratamento</option>
-                    <option value="Crio-E">Crio-E</option>
-                    <option value="Diástase PHE">Diástase PHE</option>
-                    <option value="FlaciOff">FlaciOff</option>
-                    <option value="Depilação a Laser">Depilação a Laser</option>
-                    <option value="Lavieen">Lavieen</option>
-                    <option value="Limpeza de Pele">Limpeza de Pele</option>
-                    <option value="Outro protocolo">Outro protocolo</option>
-                  </select>
-                </div>
-                <button class="btn btn--primary btn--full" type="submit">
-                  Quero atendimento pelo WhatsApp
-                </button>
-                <p class="form-feedback" data-form-feedback aria-live="polite"></p>
-              </form>
-            </aside>
           </div>
+        </div>
+
+        <div class="container hero-support reveal">
+          <aside class="lead-card hero-support__form" aria-labelledby="lead-card-title">
+            <div class="lead-card__header">
+              <p class="eyebrow">Contato rápido</p>
+              <h3 id="lead-card-title">Solicite um primeiro atendimento</h3>
+              <p>
+                Deixe seus dados para iniciar a conversa com a equipe pelo
+                WhatsApp.
+              </p>
+            </div>
+            <form class="lead-form" data-lead-form novalidate>
+              <div class="field">
+                <label for="lead-name">Seu nome</label>
+                <input
+                  id="lead-name"
+                  name="name"
+                  type="text"
+                  placeholder="Como você gostaria de ser chamada?"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="lead-phone">WhatsApp</label>
+                <input
+                  id="lead-phone"
+                  name="phone"
+                  type="tel"
+                  placeholder="(00) 00000-0000"
+                  autocomplete="tel"
+                  inputmode="tel"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="lead-interest">Interesse principal</label>
+                <select id="lead-interest" name="interest">
+                  <option value="">Selecione um tratamento</option>
+                  <option value="Crio-E">Crio-E</option>
+                  <option value="Diástase PHE">Diástase PHE</option>
+                  <option value="FlaciOff">FlaciOff</option>
+                  <option value="Depilação a Laser">Depilação a Laser</option>
+                  <option value="Lavieen">Lavieen</option>
+                  <option value="Limpeza de Pele">Limpeza de Pele</option>
+                  <option value="Outro protocolo">Outro protocolo</option>
+                </select>
+              </div>
+              <button class="btn btn--primary btn--full" type="submit">
+                Quero atendimento pelo WhatsApp
+              </button>
+              <p class="form-feedback" data-form-feedback aria-live="polite"></p>
+            </form>
+          </aside>
+
+          <article class="hero-detail-card hero-support__details" aria-label="Resumo do atendimento">
+            <p class="hero-detail-card__eyebrow">Atendimento com foco em clareza</p>
+            <ul class="hero-detail-card__list">
+              <li>Tratamentos faciais e corporais com indicação individual</li>
+              <li>Planejamento de protocolo conforme necessidade observada</li>
+              <li>Orientação profissional desde o primeiro contato</li>
+            </ul>
+          </article>
         </div>
       </section>
 
@@ -495,7 +532,7 @@
           <div class="gallery-grid">
             <figure class="gallery-card reveal">
               <img
-                src="assets/img/atendimento.png"
+                src="assets/img/space-reception.svg"
                 alt="Placeholder para foto da recepção"
                 loading="lazy"
                 width="1200"
@@ -505,7 +542,7 @@
             </figure>
             <figure class="gallery-card reveal">
               <img
-                src="assets/img/atendimento.png"
+                src="assets/img/space-room.svg"
                 alt="Placeholder para foto da sala de atendimento"
                 loading="lazy"
                 width="1200"
@@ -515,7 +552,7 @@
             </figure>
             <figure class="gallery-card reveal">
               <img
-                src="assets/img/atendimento.png"
+                src="assets/img/space-procedures.svg"
                 alt="Placeholder para foto de procedimentos"
                 loading="lazy"
                 width="1200"
@@ -525,7 +562,7 @@
             </figure>
             <figure class="gallery-card reveal">
               <img
-                src="assets/img/atendimento.png"
+                src="assets/img/space-brand.svg"
                 alt="Placeholder para foto de detalhes da marca"
                 loading="lazy"
                 width="1200"
